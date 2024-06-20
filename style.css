@@ -39,3 +39,25 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dice {
+    text-align: center;
+    display: block;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  h1 {
+    margin: 10px;
+    font-size: 4rem;
+    width: 100%;
+  }
+}
